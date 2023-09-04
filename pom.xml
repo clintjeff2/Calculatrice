@@ -31,9 +31,9 @@
 </dependencies>
 <distributionManagement>
   <repository>
-    <id>releases</id>
+    <id>nexus</id>
     <!-- <url>http://52.204.135.48:8081/nexus/content/repositories/releases</url> -->    
-    <url>http://binary.ibm.com/nexus/content/repositories/releases</url>
+    <url>http://localhost:8081/repository/paypal/</url>
   </repository>
 </distributionManagement>
 </project>
